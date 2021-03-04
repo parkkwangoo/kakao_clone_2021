@@ -6,11 +6,12 @@
 .user-component__column:first-child {
     display: flex;
     align-items: center;
+    margin-bottom: 15px;
 }
 .user-component__avatar{
     width: 70px;
     height: 70px;
-    border-radius: 20px;
+    border-radius: 30px;
     margin-right: 20px;
 }
 
@@ -36,6 +37,7 @@
     height: 60px;
     border-radius: 25px;
     margin-right: 20px;
+ 
 }
 
 .user-component__title--not-bold {

@@ -16,6 +16,11 @@
 }
 
 .screen-header__icons span {
-    padding-left: 20px;
+    margin-left:20px
 }
 
+.screen-header__badge {
+    position: relative;
+    left: 5px;
+    bottom: 20px;
+}

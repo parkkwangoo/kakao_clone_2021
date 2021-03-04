@@ -11,6 +11,19 @@
     font-weight: 600;
 }
 
+.badge--white {
+    display: block;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    color: white;
+    font-weight: 600;
+}
+
 .badge--sm {
     display: block;
     background-color: tomato;
@@ -22,7 +35,4 @@
     border-radius: 3.5px;
     color: white;
     font-weight: 600;
-    position: absolute;
-    left: -35px;
-    bottom: -25px;
 }
