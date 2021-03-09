@@ -12,9 +12,6 @@
     justify-content: space-between;
 }
 
-.nav__btn{
-
-}
 
 .nav__link {
     color: rgb(129, 126, 126);
@@ -34,3 +31,7 @@
     left: 35px;
     bottom: 25px;
 }
+
+
+
+
