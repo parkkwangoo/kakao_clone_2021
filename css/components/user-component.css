@@ -2,6 +2,7 @@
     justify-content: space-between;
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
 .user-component__column:first-child {
     display: flex;
@@ -56,4 +57,14 @@
 .user-component__time {
 margin-bottom: 10px;
 display: block;
+}
+
+.fa-exclamation-circle {
+ color: rgba(255,0,0,0.6);
+ margin-left: 3px;
+}
+
+.fa-comment-alt{
+    color: rgba(0,0,0,0.8);
+    margin-bottom: 15px;
 }
