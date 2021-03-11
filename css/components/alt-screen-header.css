@@ -1,4 +1,4 @@
-.screen-header {
+.alt-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,18 +8,12 @@
     margin-bottom: 15px;
 }
 
-.screen-header__title {
-
+.alt-header__title {
     font-size: 32px;
     font-weight: 600;
 }
 
-.screen-header__icons span {
-    margin-left:20px
+.alt-header__column i {
+    margin-left: 20px;
 }
 
-.screen-header__badge {
-    position: relative;
-    left: 5px;
-    bottom: 20px;
-}
