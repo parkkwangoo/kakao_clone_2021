@@ -23,3 +23,21 @@
     left: 5px;
     bottom: 20px;
 }
+
+
+@keyframes jumpIcon{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: none;
+    }
+}
+
+.screen-header__icons i:hover{
+    animation: jumpIcon 1s linear infinite;
+
+}

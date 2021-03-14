@@ -116,3 +116,23 @@ margin-left: 3px;
     width: 100%;
     border-bottom: var(--main-border);
 }
+
+@keyframes jumpIconHeart{
+    0%{
+        transform: none;
+        color: white;
+    }
+    50%{
+        transform: scale(1.2);
+        color: tomato;
+    }
+    100%{
+        transform: none;
+        color: white;
+    }
+}
+
+.open-post__heart-count:hover i {
+    will-change: transform;
+    animation: jumpIconHeart .5s linear infinite;
+}
